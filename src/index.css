@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 body {
   margin: 0;
   font-family: Inter, sans-serif;
@@ -18,7 +22,8 @@ body {
 .Header {
   height: 317px;
   margin-top: 44px;
-  background-color: white;
+  background-image: url("./images/aurory.jpg");
+  background-size: cover;
   border-radius: 10px 10px 0px 0px;
 }
 
@@ -75,6 +80,12 @@ h3 {
   padding-top: 15px;
 }
 
+.MainButtons > .LinkedIn {
+  color: white;
+  background: #5093E2;
+  border: none;
+}
+
 .MainButtons > button {
   width: 115px;
   height: 34px;
@@ -86,6 +97,10 @@ h3 {
   border: 1px solid #D1D5DB;
 }
 
+button > img {
+  padding-right: 5px;
+}
+
 .SocialButtons {
   display: flex;
   justify-content: space-between;
@@ -95,5 +110,8 @@ h3 {
 .SocialButtons > img {
   width: 25px;
   height: 25px;
-  background-color: white;
+}
+
+.SocialButtons > img:hover {
+  cursor: pointer;
 }

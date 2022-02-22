@@ -1,3 +1,6 @@
+import email from "../images/Email.png"
+import linkedin from "../images/LinkedIn.png"
+
 export default function Main() {
     return (
       <main className="Main">
@@ -6,8 +9,8 @@ export default function Main() {
         <p className = "Website">oliver.melbourne</p>
         
         <div className = "MainButtons">
-            <button className = "Email">Email</button>
-            <button className = "LinkedIn">LinkedIn</button>
+            <button className = "Email"><img src = {email} />Email</button>
+            <button className = "LinkedIn"><img src = {linkedin} />LinkedIn</button>
         </div>
         
         <h3>About</h3>
