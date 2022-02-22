@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  height: 100%;
+  background-color: #23252C;
+}
+
+.App {
+  margin: auto;
+  width: 317px;
+}
+
+.Header {
+  height: 317px;
+  margin-top: 44px;
+  background-color: white;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.Main {
+  height: 399px;
+  background-color: #1A1B21;
+  padding: 21px 36px;
+}
+
+.Footer {
+  height: 64px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+
+p {
+  color: #dcdcdc;
+  font-size: 10px;
+  font-weight: 400;
+  padding-top: 6px;
+  line-height: 150%;  
+}
+
+.Role {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 13px;
+  color: #F3BF99;  
+}
+
+.Website {
+  padding-top: 9px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #F5F5F5;
+  padding-top: 20px;
+}
+
+.MainButtons {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.MainButtons > button {
+  width: 115px;
+  height: 34px;
+  background: #FFFFFF;
+  color: #374151;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 6px;
+  border: 1px solid #D1D5DB;
+}
+
+.SocialButtons {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 73px;  
+}
+
+.SocialButtons > img {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+}
